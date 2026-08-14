@@ -25,7 +25,7 @@ export default function About() {
         <Reveal className="relative mx-auto w-full max-w-md lg:max-w-none">
           <div className="relative overflow-hidden rounded-[2rem] border border-white/[0.07]">
             <img
-              src="/images/about.png"
+              src="/images/me.png"
               alt="Akansha Shankpal working at her studio desk"
               loading="lazy"
               className="aspect-[3/4] w-full object-cover"
