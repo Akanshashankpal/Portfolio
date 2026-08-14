@@ -12,12 +12,12 @@ export const navLinks: NavLink[] = [
   { label: 'Contact', href: '#contact' },
 ];
 
-export const EMAIL = 'hello@akanshashankpal.dev';
-export const PHONE = '+91 98260 44317';
+export const EMAIL = 'aakankshashankpal38@gmail.com';
+export const PHONE = '+91 7898211358';
 export const LOCATION = 'Burhanpur, Madhya Pradesh · India';
 
 export const socials = {
   github: 'https://github.com/akanshashankpal',
-  linkedin: 'https://www.linkedin.com/in/akanshashankpal',
-  x: 'https://x.com/akanshashankpal',
+  linkedin: 'https://www.linkedin.com/in/akansha-shankpal/',
+  x: '#',
 };

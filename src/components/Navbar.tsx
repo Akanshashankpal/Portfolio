@@ -47,7 +47,7 @@ export default function Navbar() {
             href="#home"
             className="font-display text-lg font-semibold tracking-tight text-white"
           >
-            akansha<span className="text-blush">.</span>shankpal
+            Akanksha<span className="text-blush">.</span>Shankpal
           </a>
 
           <ul className="hidden items-center gap-8 lg:flex">

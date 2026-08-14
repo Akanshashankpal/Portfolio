@@ -23,11 +23,11 @@ export default function Footer() {
                 href="#home"
                 className="font-display text-lg font-semibold tracking-tight text-white"
               >
-                akansha<span className="text-blush">.</span>shankpal
+                Akanksha<span className="text-blush">.</span>Shankpal
               </a>
               <p className="mt-4 max-w-xs text-sm leading-relaxed text-mist">
-                Frontend developer crafting digital experiences that feel as good as they look
-                — from Burhanpur to anywhere.
+                Frontend Developer crafting digital experiences that feel as good as they look
+                — from anywhere to anywhere.
               </p>
               <div className="mt-6 flex items-center gap-3">
                 {footerSocials.map(({ label, href, Icon }) => (
@@ -73,7 +73,7 @@ export default function Footer() {
                 href="mailto:hello@akanshashankpal.dev"
                 className="mt-5 block text-sm text-mist transition-colors duration-300 hover:text-blush"
               >
-                hello@akanshashankpal.dev
+                aakankshashankpal38@gmail.com
               </a>
               <p className="mt-2 text-sm text-mist">Burhanpur, MP · India</p>
               <motion.button

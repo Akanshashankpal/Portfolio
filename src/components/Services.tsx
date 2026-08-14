@@ -44,7 +44,7 @@ export default function Services() {
                 <p className="relative mt-3 text-sm leading-relaxed text-mist">
                   {service.description}
                 </p>
-                <ul className="relative mt-6 space-y-2.5 border-t border-white/[0.06] pt-5">
+                <ul className="relative mt-4 space-y-2.5 border-t border-white/[0.06] pt-5">
                   {service.points.map((point) => (
                     <li key={point} className="flex items-center gap-2.5 text-sm text-white/70">
                       <span className="h-1 w-1 shrink-0 rounded-full bg-blush" />

@@ -9,28 +9,20 @@ export interface ExperienceItem {
 
 export const experience: ExperienceItem[] = [
   {
-    period: '2024 — Present',
+    period: '2026 — Present',
     role: 'Freelance Frontend Developer',
     company: 'Independent · Remote',
     summary:
-      'Partnering with founders, startups and local businesses to design and ship production-grade web products — from marketing sites to full dashboards. Recent work includes SmartBurhanpur and ShiftTpe.',
-    tags: ['React', 'TypeScript', 'Next.js'],
+      'Partnering with founders, startups and local businesses to design and ship production-grade web products — from marketing sites to full dashboards. Recent work includes NearMeB2B.City.',
+    tags: ['React', 'TypeScript', 'Tailwind CSS', 'JavaScript'],
     current: true,
   },
   {
-    period: '2023 — 2024',
-    role: 'Frontend Developer',
-    company: 'PixelForge Studio · Indore',
+    period: '2024 — 2025',
+    role: 'Frontend Developer Intern',
+    company: 'Akrypt IT Solutions Pvt. Ltd. · Burhanpur',
     summary:
-      'Built and maintained client-facing React applications and a shared design system. Cut first load by 42% on a flagship e-commerce build through code-splitting, lazy routes and image discipline.',
-    tags: ['React', 'Redux', 'Tailwind CSS'],
-  },
-  {
-    period: '2022 — 2023',
-    role: 'Web Development Intern',
-    company: 'TechNest Solutions · Remote',
-    summary:
-      'Turned Figma wireframes into responsive, pixel-accurate pages, fixed cross-browser UI bugs and learned what shipping real software with a team actually feels like.',
-    tags: ['JavaScript', 'CSS3', 'Git'],
+      'Developed and maintained web applications using React, JavaScript, and CSS. Collaborated with the development team to implement new features and improve the user experience.',
+    tags: ['React', 'JavaScript', 'CSS3' ,'Tailwind CSS', 'TypeScript'],
   },
 ];

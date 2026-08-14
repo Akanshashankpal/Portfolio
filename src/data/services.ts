@@ -14,32 +14,48 @@ export const services: Service[] = [
     index: '01',
     title: 'Frontend Development',
     description:
-      'Production-ready React applications with clean architecture, typed contracts and honest state management — built to be maintained, not just demoed.',
-    points: ['SPAs & dashboard builds', 'SSR / SSG with Next.js', 'Pixel-perfect Figma handoff'],
+      'I build clean, responsive and user-friendly websites using React and TypeScript.',
+    points: [
+      'React & TypeScript',
+      'Responsive websites',
+      'Reusable components',
+    ],
     icon: LayoutGrid,
   },
   {
     index: '02',
-    title: 'UI Engineering & Design Systems',
+    title: 'UI Design & Development',
     description:
-      'Component systems that scale: consistent tokens, documented variants and a visual language your whole team can speak fluently.',
-    points: ['Reusable component libraries', 'Design tokens & theming', 'Accessible, WCAG-aware UI'],
+      'I create modern and attractive interfaces that work smoothly on all screen sizes.',
+    points: [
+      'Modern UI design',
+      'Responsive layouts',
+      'Reusable UI components',
+    ],
     icon: Palette,
   },
   {
     index: '03',
-    title: 'Performance & Web Vitals',
+    title: 'Performance Optimization',
     description:
-      'Speed is a feature. I profile, prune and optimize until interfaces feel instant — even on mid-range phones and shaky networks.',
-    points: ['Lighthouse 90+ targets', 'Bundle & image optimization', 'Core Web Vitals audits'],
+      'I optimize websites to make them faster, smoother and better for users.',
+    points: [
+      'Website speed',
+      'Image optimization',
+      'Mobile performance',
+    ],
     icon: Gauge,
   },
   {
     index: '04',
-    title: 'API & State Architecture',
+    title: 'API Integration',
     description:
-      'Robust data flow from endpoint to UI: caching, optimistic updates and error states that never leave users guessing.',
-    points: ['REST / GraphQL integration', 'Redux, Zustand, React Query', 'Auth & protected routes'],
+      'I connect frontend applications with APIs and manage data, authentication and application state.',
+    points: [
+      'REST API integration',
+      'Authentication',
+      'State management',
+    ],
     icon: Workflow,
-  },
+  }
 ];

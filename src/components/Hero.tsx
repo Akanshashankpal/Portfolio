@@ -174,7 +174,7 @@ export default function Hero() {
             />
 
             <img
-              src="/images/portrait.png"
+              src="/images/portfolio.jpeg"
               alt="Portrait of Akansha Shankpal, frontend developer"
               draggable={false}
               className="relative z-10 mx-auto w-full select-none"
@@ -187,7 +187,7 @@ export default function Hero() {
               className="pointer-events-none absolute -right-1 top-[16%] z-20 rounded-2xl border border-white/10 bg-coal/85 px-4 py-3 shadow-2xl shadow-black/50 backdrop-blur-xl sm:-right-5"
             >
               <p className="font-display text-xl font-semibold leading-none text-white sm:text-2xl">
-                3+
+                1+
               </p>
               <p className="mt-1.5 text-[10px] font-medium uppercase tracking-[0.18em] text-mist">
                 Years of code
@@ -200,10 +200,10 @@ export default function Hero() {
               className="pointer-events-none absolute -left-1 bottom-[12%] z-20 rounded-2xl border border-white/10 bg-coal/85 px-4 py-3 shadow-2xl shadow-black/50 backdrop-blur-xl sm:-left-5"
             >
               <p className="font-display text-xl font-semibold leading-none text-blush sm:text-2xl">
-                20+
+                5+
               </p>
               <p className="mt-1.5 text-[10px] font-medium uppercase tracking-[0.18em] text-mist">
-                Projects shipped
+                Projects
               </p>
             </motion.div>
           </motion.div>

@@ -19,7 +19,6 @@ export const skillGroups: SkillGroup[] = [
       { name: 'React', level: 94 },
       { name: 'TypeScript', level: 90 },
       { name: 'JavaScript (ES6+)', level: 94 },
-      { name: 'Next.js', level: 84 },
     ],
   },
   {
@@ -28,8 +27,8 @@ export const skillGroups: SkillGroup[] = [
     caption: 'Pixel discipline with a feel for movement',
     skills: [
       { name: 'Tailwind CSS', level: 95 },
-      { name: 'CSS3 / Sass', level: 90 },
-      { name: 'Framer Motion', level: 86 },
+      { name: 'CSS3 ', level: 90 },
+      { name: 'Framer Motion', level: 60 },
       { name: 'Responsive Design', level: 93 },
     ],
   },
@@ -39,8 +38,8 @@ export const skillGroups: SkillGroup[] = [
     caption: 'How I ship — fast, reviewed and repeatable',
     skills: [
       { name: 'Git & GitHub', level: 90 },
-      { name: 'Vite & Tooling', level: 88 },
-      { name: 'Redux Toolkit', level: 84 },
+      { name: 'Vite & Tooling', level: 58 },
+      { name: 'Redux Toolkit', level: 54 },
       { name: 'Figma to Code', level: 80 },
     ],
   },

@@ -6,16 +6,15 @@ import Button from './ui/Button';
 import { EMAIL, LOCATION } from '../data/navigation';
 
 const stats = [
-  { value: '3+', label: 'Years of experience' },
-  { value: '20+', label: 'Projects completed' },
-  { value: '12+', label: 'Happy clients' },
+  { value: '1+', label: 'Years of experience' },
+  { value: '5+', label: 'Projects completed' },
 ];
 
 const facts = [
   { icon: MapPin, label: 'Location', value: LOCATION },
   { icon: Briefcase, label: 'Focus', value: 'Frontend · React ecosystem' },
   { icon: Mail, label: 'Email', value: EMAIL },
-  { icon: GraduationCap, label: 'Education', value: 'B.Sc. Computer Science' },
+  { icon: GraduationCap, label: 'Education', value: 'B.Tech. Computer Science' },
 ];
 
 export default function About() {
@@ -40,7 +39,7 @@ export default function About() {
                 </p>
               </div>
               <span className="rounded-full border border-white/15 bg-ink/60 px-3 py-1.5 font-display text-[10px] font-medium uppercase tracking-[0.2em] text-white/80 backdrop-blur">
-                Est. 2022
+                Est. 2026
               </span>
             </div>
           </div>
@@ -50,9 +49,9 @@ export default function About() {
             transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
             className="absolute -top-5 right-2 rounded-2xl border border-white/10 bg-panel/90 px-5 py-4 shadow-2xl shadow-black/50 backdrop-blur-xl sm:-right-5"
           >
-            <p className="font-display text-2xl font-semibold leading-none text-blush">20+</p>
+            <p className="font-display text-2xl font-semibold leading-none text-blush">5+</p>
             <p className="mt-1.5 text-[10px] font-medium uppercase tracking-[0.18em] text-mist">
-              Projects shipped
+              Projects
             </p>
           </motion.div>
         </Reveal>
