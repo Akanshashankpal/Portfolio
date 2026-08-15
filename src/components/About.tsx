@@ -22,6 +22,7 @@ export default function About() {
     <section id="about" className="relative py-24 md:py-32">
       <div className="mx-auto grid w-full max-w-[76rem] grid-cols-1 items-center gap-16 px-5 sm:px-8 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
         {/* ---- portrait card ---- */}
+        
         <Reveal className="relative mx-auto w-full max-w-md lg:max-w-none">
           <div className="relative overflow-hidden rounded-[2rem] border border-white/[0.07]">
             <img
