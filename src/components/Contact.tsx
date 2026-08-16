@@ -47,6 +47,29 @@ export default function Contact() {
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    const data = new FormData(event.currentTarget);
+    const name = String(data.get('name') ?? '').trim();
+    const email = String(data.get('email') ?? '').trim();
+    const budget = String(data.get('budget') ?? '').trim();
+    const message = String(data.get('message') ?? '').trim();
+
+    const subject = `Portfolio enquiry from ${name}`;
+    const body = [
+      `Name: ${name}`,
+      `Email: ${email}`,
+      `Budget: ${budget}`,
+      '',
+      message,
+    ].join('\n');
+
+    const gmailUrl = new URL('https://mail.google.com/mail/');
+    gmailUrl.searchParams.set('view', 'cm');
+    gmailUrl.searchParams.set('fs', '1');
+    gmailUrl.searchParams.set('to', EMAIL);
+    gmailUrl.searchParams.set('su', subject);
+    gmailUrl.searchParams.set('body', body);
+
+    window.open(gmailUrl.toString(), '_blank', 'noopener,noreferrer');
     setSent(true);
   };
 
@@ -161,8 +184,8 @@ export default function Contact() {
                     Message sent.
                   </h3>
                   <p className="mt-2 max-w-xs text-sm leading-relaxed text-mist">
-                    Thanks for reaching out — I’ll get back to you within 24 hours with next
-                    steps.
+                    Your enquiry is ready in Gmail — hit Send there and I’ll reply within 24
+                    hours.
                   </p>
                   <motion.button
                     type="button"
