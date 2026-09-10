@@ -22,7 +22,7 @@ export const projects: Project[] = [
     image: '/images/nearme.png',
     tech: ['React', 'TypeScript', 'Tailwind CSS', 'JavaScript', 'Node.js', 'Express', 'MongoDB'],
     liveUrl: 'https://nearmeb2b.city/',
-    githubUrl: 'https://github.com/PREMGAVLE/nearmeb2b.city',
+    githubUrl: '#',
     year: '2026',
   },
   {

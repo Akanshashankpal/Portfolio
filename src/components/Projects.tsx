@@ -26,7 +26,7 @@ export default function Projects() {
             }
             description="Three products, three problems solved — each designed, built and shipped end-to-end."
           />
-          <Reveal delay={0.2}>
+          {/* <Reveal delay={0.2}>
             <a
               href={socials.github}
               target="_blank"
@@ -36,7 +36,7 @@ export default function Projects() {
               All repositories
               <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </a>
-          </Reveal>
+          </Reveal> */}
         </div>
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -103,7 +103,7 @@ export default function Projects() {
                       Live Demo
                       <ArrowUpRight className="h-3.5 w-3.5" />
                     </motion.a>
-                    <motion.a
+                    {/* <motion.a
                       href={project.githubUrl}
                       target="_blank"
                       rel="noreferrer"
@@ -114,7 +114,7 @@ export default function Projects() {
                     >
                       <GithubIcon className="h-4 w-4" />
                       GitHub
-                    </motion.a>
+                    </motion.a> */}
                   </div>
                 </div>
               </motion.article>
